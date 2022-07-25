@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "124511145427",
+    "project_id": "obroomart-3a2c3",
+    "storage_bucket": "obroomart-3a2c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124511145427:android:70269e0c037285a12f3326",
+        "android_client_info": {
+          "package_name": "com.obroomart.obroomart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124511145427-47g5a55h8p49m83s5treh2g1ai6nitfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.obroomart.obroomart",
+            "certificate_hash": "65817f05c056b69397bdb3a866bac367a5167301"
+          }
+        },
+        {
+          "client_id": "124511145427-kv149mhj19prfu4rk7j28buft5iiule8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.obroomart.obroomart",
+            "certificate_hash": "10d767a2a4e8e32e17a267ce82ad6a1328440f0c"
+          }
+        },
+        {
+          "client_id": "124511145427-0kosi4q2civ60mg58l9mfk6500snt5vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAN6U3Ws0Q8jBYpiRJt9glDKt2mJ9lyDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124511145427-0kosi4q2civ60mg58l9mfk6500snt5vc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "124511145427-13dgko1snt9oc1rre8778mphqqo85q3h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.obroomart.obroomart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

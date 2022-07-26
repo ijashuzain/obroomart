@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer';
 
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +32,7 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-  String _login_by = "email"; //phone or email
+  String _login_by = "phone"; //phone or email
   String initialCountry = 'US';
   PhoneNumber phoneCode = PhoneNumber(isoCode: 'US', dialCode: "+1");
   String _phone = "";
@@ -146,6 +147,7 @@ class _LoginState extends State<Login> {
         'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email&access_token=$token');
     final graphResponse = await http.get(url);
     final profile = json.decode(graphResponse.body);
+    log(profile.toString());
     //print(profile);
     /*from profile you will get the below params
     {

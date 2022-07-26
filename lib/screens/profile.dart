@@ -612,7 +612,7 @@ class _ProfileState extends State<Profile> {
             padding: const EdgeInsets.only(top: 4.0),
             child: user_name.$ != "" && user_name.$ != null
                 ? Text(
-                    "${user_name.$}",
+                    "${user_email.$}",
                     style: TextStyle(
                       color: MyTheme.medium_grey,
                     ),

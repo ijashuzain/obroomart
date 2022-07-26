@@ -20,7 +20,7 @@ class Registration extends StatefulWidget {
 }
 
 class _RegistrationState extends State<Registration> {
-  String _register_by = "email"; //phone or email
+  String _register_by = "phone"; //phone or email
   String initialCountry = 'US';
   PhoneNumber phoneCode = PhoneNumber(isoCode: 'US', dialCode: "+1");
 

@@ -63,8 +63,8 @@ class _MainDrawerState extends State<MainDrawer> {
                         ),
                         title: Text("${user_name.$}"),
                         subtitle:
-                            user_name.$ != "" && user_name.$ != null
-                                ? Text("${user_name.$}")
+                            user_name.$ != "" && user_email.$ != null
+                                ? Text("${user_email.$}")
                                 : Text("${user_phone.$}"))
                     : Text(AppLocalizations.of(context).main_drawer_not_logged_in,
                         style: TextStyle(

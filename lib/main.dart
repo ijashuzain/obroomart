@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:obroomart/helpers/shared_value_helper.dart';
 import 'package:obroomart/my_theme.dart';
 import 'package:obroomart/other_config.dart';
@@ -23,6 +24,7 @@ import 'lang_config.dart';
 
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,

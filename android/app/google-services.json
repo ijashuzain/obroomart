@@ -30,6 +30,14 @@
           }
         },
         {
+          "client_id": "124511145427-umtqe7odkt3c58onaunblk1d61fjkgve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.obroomart.obroomart",
+            "certificate_hash": "46984dc491e6e5c819f248635dfdc6966b01deef"
+          }
+        },
+        {
           "client_id": "124511145427-0kosi4q2civ60mg58l9mfk6500snt5vc.apps.googleusercontent.com",
           "client_type": 3
         }
